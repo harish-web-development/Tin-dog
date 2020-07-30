@@ -1,0 +1,173 @@
+/* Elements */
+
+body {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 700 ;
+}
+
+h2 {
+
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 700 ;
+
+}
+
+
+/* Classes */
+
+.container-fluid {
+  padding: 3% 15% 7% ;
+
+}
+
+.logo-size {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem ;
+}
+
+.weight-900 {
+  font-weight: 900 ;
+}
+
+.rotateimg32 {
+  -webkit-transform:rotate(32deg);
+  -moz-transform: rotate(32deg);
+  -ms-transform: rotate(32deg);
+  -o-transform: rotate(32deg);
+  transform: rotate(32deg);
+}
+
+.resize-image-60 {
+  width: 60% ;
+}
+
+.hide-image-partially {
+  position: absolute;
+  top: 12% ;
+  right: 30% ;
+  /* z-index: 1  */ /*Harish */
+}
+
+.navbar {
+  padding: 0 0 4.5rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0 ;
+}
+
+
+.feature-box {
+  text-align: center;
+}
+
+.icon-styles {
+  color: #eF8172 ;
+  font-size: 2.5rem ;
+  margin-bottom: 1rem;
+}
+
+.icon-styles:hover {
+  color: #FF4c69 ;
+}
+
+.testimonials-image {
+  width: 15% ;
+  border-radius: 100% ;
+  margin: 20px;
+
+}
+
+.press-logo {
+  width: 15% ;
+  margin: 20px 20px 50px ;
+}
+
+.carousel-item {
+  padding: 7% 15% ;
+}
+
+.card-styles {
+  padding: 3% 2% ;
+
+}
+
+.cta-styles {
+  color: #fff ;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.footer-icon-styles {
+  margin: 2% 1% ;
+}
+
+/* ID's */
+
+#title {
+  background-color: #ff4c68 ;
+}
+
+
+#features {
+  padding: 7% 15% ;
+  background-color: #fff ;
+  position: relative;
+  /* z-index: 2; */
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #eF8172 ;
+  color: #fff ;
+}
+
+#press {
+  background-color: #eF8172 ;
+  text-align: center;
+  padding-bottom: 2.5% ;
+
+}
+
+#pricing {
+  padding: 100px ;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68 ;
+  padding: 6% 17% 7% ;
+  text-align: center;
+}
+
+#footer {
+  background-color: #fff ;
+  padding: 7% 15% ;
+  text-align: center;
+}
+
+/* Mobile and tablet version */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .static-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
